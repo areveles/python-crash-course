@@ -19,7 +19,18 @@ color = input("Please enter your favorite color: \n")
 print(f'Hi {name}! Your favorite color is {color}')
 
 # Exercise 3: Product of two numbers
-# (your code here)
+user_input = input("Enter two numbers, separated by a space: ")
+num1, num2 = user_input.split()
+
+num1 = int(num1)
+num2 = int(num2)
+
+product = num1 * num2
+
+print(f"The product of {num1} and {num2} is {product}")
 
 # Exercise 4: Remainder
-# (your code here)
+num1 = int(input("Please enter a number: "))
+num2 = int(input("Please enter a second number: "))
+result = num1 % num2
+print(f"The remainder of {num1} and {num2} is {result}")

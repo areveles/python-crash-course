@@ -45,4 +45,12 @@ print('\n')
 
 # Exercise 5: Continuos number input sum until 0
 print("Exercise 5: Continous number input sum until 0")
+total = 0
+while True:
+    user_num = int(input("Enter a number (0 to stop): "))
+    if user_num == 0:
+        break
+    total += user_num
+print("The total of all numbers entered is: {total}")
+
 

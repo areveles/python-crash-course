@@ -51,6 +51,6 @@ while True:
     if user_num == 0:
         break
     total += user_num
-print("The total of all numbers entered is: {total}")
+print(f"The total of all numbers entered is: {total}")
 
 

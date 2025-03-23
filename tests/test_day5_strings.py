@@ -1,6 +1,6 @@
 import sys
 import os
-import unittest
+import pytest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../exercises')))
 
@@ -22,4 +22,4 @@ def test_is_substring():
     assert is_substring("cat", "dog") is False
 
 if __name__ == "__main__":
-    unittest.main()
+    pytest.main()

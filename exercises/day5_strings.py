@@ -7,7 +7,7 @@ def print_uppercase():
 
 # 2. Count how many times a letter appears in a given string
 def count_letter_occurrences(string, letter):
-    pass
+    
 
 # 3. Check if a word is a palindrome
 def is_palindrome(word):

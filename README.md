@@ -56,9 +56,9 @@ I'm using this as a personal fast-track Python refresher to prepare for coding p
 
 ## ✅ Progress  
 - [x] Day 1 Completed  
-- [ ] Day 2 In Progress  
-- [ ] Day 3  
-- [ ] Day 4  
+- [x] Day 2 In Progress
+- [x] Day 3  
+- [x] Day 4  
 - [ ] Day 5  
 - [ ] Day 6  
 - [ ] Day 7  

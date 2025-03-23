@@ -1,8 +1,9 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../exercises')))
 
-from exercises.day3_functions import add_numbers, even_or_odd, greet, factorial, find_largest
+from functions import add_numbers, even_or_odd, greet, factorial, find_largest
+
 def test_add_numbers():
     assert add_numbers(5, 3) == "The sum of 5 and 3 is 8"
 

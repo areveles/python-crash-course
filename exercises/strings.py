@@ -7,20 +7,35 @@ def print_uppercase():
 
 # 2. Count how many times a letter appears in a given string
 def count_letter_occurrences(string, letter):
-    
-
+    count = 0
+    for i in string:
+        if i == letter:
+            count += 1
+    return count
 # 3. Check if a word is a palindrome
 def is_palindrome(word):
-    pass
+    reversed_word = word[::-1]
+    if reversed_word.lower() == word.lower():
+        return True
+    else:
+        return False
 
 # 4. Count how many vowels are in a string
 def count_vowels(string):
-    pass
+    counts = {}
+    vowels = 'aeiou'
+
+    for char in string.lower():
+        if char in vowels:
+            if char in counts:
+                counts[char] += 1
+            else:
+                counts[char] = 1
+    return counts
 
 # 5. Return True if one string is a substring of the other
 def is_substring(str1, str2):
-    pass
+    return str2.lower() in str1.lower()
 
 if __name__ == "__main__":
-    print_uppercase()
-
+    print("Exercise 1")

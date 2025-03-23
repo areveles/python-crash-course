@@ -11,7 +11,7 @@ def favorite_foods_list():
 # Exercise 2: Ask the user for 3 numbers, store them in a list, and print the list sorted
 def sort_numbers():
     numbers = []
-    for num in range(3):
+    for _ in range(3):
         num = int(input("Please enter 3 numbers: "))
         numbers.append(num)
     numbers.sort()

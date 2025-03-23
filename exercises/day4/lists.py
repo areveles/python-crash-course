@@ -15,7 +15,7 @@ def sort_numbers():
         num = int(input("Please enter 3 numbers: "))
         numbers.append(num)
     numbers.sort()
-    print("Sorted numbers: ", numbers)
+    print("Sorted numbers:",numbers)
 
 # Exercise 3: Write a function that takes a list of numbers and returns the sum
 def sum_of_numbers(numbers):
